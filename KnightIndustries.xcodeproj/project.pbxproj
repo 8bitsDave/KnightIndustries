@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63572B422A9E68010016F87C /* KnightIndustries Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 63572B412A9E68010016F87C /* KnightIndustries Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63572B472A9E68010016F87C /* KnightIndustriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63572B462A9E68010016F87C /* KnightIndustriesApp.swift */; };
+		63572B492A9E68010016F87C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63572B482A9E68010016F87C /* ContentView.swift */; };
+		63572B4B2A9E68020016F87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63572B4A2A9E68020016F87C /* Assets.xcassets */; };
+		63572B4E2A9E68020016F87C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63572B4D2A9E68020016F87C /* Preview Assets.xcassets */; };
+		63572B582A9E68030016F87C /* KnightIndustries_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63572B572A9E68030016F87C /* KnightIndustries_Watch_AppTests.swift */; };
+		63572B622A9E68030016F87C /* KnightIndustries_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63572B612A9E68030016F87C /* KnightIndustries_Watch_AppUITests.swift */; };
+		63572B642A9E68030016F87C /* KnightIndustries_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63572B632A9E68030016F87C /* KnightIndustries_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63572B432A9E68010016F87C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63572B352A9E68010016F87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63572B402A9E68010016F87C;
+			remoteInfo = "KnightIndustries Watch App";
+		};
+		63572B542A9E68030016F87C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63572B352A9E68010016F87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63572B402A9E68010016F87C;
+			remoteInfo = "KnightIndustries Watch App";
+		};
+		63572B5E2A9E68030016F87C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63572B352A9E68010016F87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63572B402A9E68010016F87C;
+			remoteInfo = "KnightIndustries Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63572B6A2A9E68030016F87C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				63572B422A9E68010016F87C /* KnightIndustries Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63572B3B2A9E68010016F87C /* KnightIndustries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightIndustries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63572B412A9E68010016F87C /* KnightIndustries Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KnightIndustries Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63572B462A9E68010016F87C /* KnightIndustriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightIndustriesApp.swift; sourceTree = "<group>"; };
+		63572B482A9E68010016F87C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63572B4A2A9E68020016F87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63572B4D2A9E68020016F87C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63572B532A9E68030016F87C /* KnightIndustries Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KnightIndustries Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63572B572A9E68030016F87C /* KnightIndustries_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightIndustries_Watch_AppTests.swift; sourceTree = "<group>"; };
+		63572B5D2A9E68030016F87C /* KnightIndustries Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KnightIndustries Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63572B612A9E68030016F87C /* KnightIndustries_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightIndustries_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		63572B632A9E68030016F87C /* KnightIndustries_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightIndustries_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63572B3E2A9E68010016F87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63572B502A9E68030016F87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63572B5A2A9E68030016F87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63572B342A9E68010016F87C = {
+			isa = PBXGroup;
+			children = (
+				63572B452A9E68010016F87C /* KnightIndustries Watch App */,
+				63572B562A9E68030016F87C /* KnightIndustries Watch AppTests */,
+				63572B602A9E68030016F87C /* KnightIndustries Watch AppUITests */,
+				63572B3C2A9E68010016F87C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63572B3C2A9E68010016F87C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63572B3B2A9E68010016F87C /* KnightIndustries.app */,
+				63572B412A9E68010016F87C /* KnightIndustries Watch App.app */,
+				63572B532A9E68030016F87C /* KnightIndustries Watch AppTests.xctest */,
+				63572B5D2A9E68030016F87C /* KnightIndustries Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63572B452A9E68010016F87C /* KnightIndustries Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				63572B462A9E68010016F87C /* KnightIndustriesApp.swift */,
+				63572B482A9E68010016F87C /* ContentView.swift */,
+				63572B4A2A9E68020016F87C /* Assets.xcassets */,
+				63572B4C2A9E68020016F87C /* Preview Content */,
+			);
+			path = "KnightIndustries Watch App";
+			sourceTree = "<group>";
+		};
+		63572B4C2A9E68020016F87C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63572B4D2A9E68020016F87C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63572B562A9E68030016F87C /* KnightIndustries Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				63572B572A9E68030016F87C /* KnightIndustries_Watch_AppTests.swift */,
+			);
+			path = "KnightIndustries Watch AppTests";
+			sourceTree = "<group>";
+		};
+		63572B602A9E68030016F87C /* KnightIndustries Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63572B612A9E68030016F87C /* KnightIndustries_Watch_AppUITests.swift */,
+				63572B632A9E68030016F87C /* KnightIndustries_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "KnightIndustries Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63572B3A2A9E68010016F87C /* KnightIndustries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63572B6B2A9E68030016F87C /* Build configuration list for PBXNativeTarget "KnightIndustries" */;
+			buildPhases = (
+				63572B392A9E68010016F87C /* Resources */,
+				63572B6A2A9E68030016F87C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63572B442A9E68010016F87C /* PBXTargetDependency */,
+			);
+			name = KnightIndustries;
+			productName = KnightIndustries;
+			productReference = 63572B3B2A9E68010016F87C /* KnightIndustries.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		63572B402A9E68010016F87C /* KnightIndustries Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63572B672A9E68030016F87C /* Build configuration list for PBXNativeTarget "KnightIndustries Watch App" */;
+			buildPhases = (
+				63572B3D2A9E68010016F87C /* Sources */,
+				63572B3E2A9E68010016F87C /* Frameworks */,
+				63572B3F2A9E68010016F87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KnightIndustries Watch App";
+			productName = "KnightIndustries Watch App";
+			productReference = 63572B412A9E68010016F87C /* KnightIndustries Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63572B522A9E68030016F87C /* KnightIndustries Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63572B6E2A9E68030016F87C /* Build configuration list for PBXNativeTarget "KnightIndustries Watch AppTests" */;
+			buildPhases = (
+				63572B4F2A9E68030016F87C /* Sources */,
+				63572B502A9E68030016F87C /* Frameworks */,
+				63572B512A9E68030016F87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63572B552A9E68030016F87C /* PBXTargetDependency */,
+			);
+			name = "KnightIndustries Watch AppTests";
+			productName = "KnightIndustries Watch AppTests";
+			productReference = 63572B532A9E68030016F87C /* KnightIndustries Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63572B5C2A9E68030016F87C /* KnightIndustries Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63572B712A9E68030016F87C /* Build configuration list for PBXNativeTarget "KnightIndustries Watch AppUITests" */;
+			buildPhases = (
+				63572B592A9E68030016F87C /* Sources */,
+				63572B5A2A9E68030016F87C /* Frameworks */,
+				63572B5B2A9E68030016F87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63572B5F2A9E68030016F87C /* PBXTargetDependency */,
+			);
+			name = "KnightIndustries Watch AppUITests";
+			productName = "KnightIndustries Watch AppUITests";
+			productReference = 63572B5D2A9E68030016F87C /* KnightIndustries Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63572B352A9E68010016F87C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					63572B3A2A9E68010016F87C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					63572B402A9E68010016F87C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					63572B522A9E68030016F87C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 63572B402A9E68010016F87C;
+					};
+					63572B5C2A9E68030016F87C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 63572B402A9E68010016F87C;
+					};
+				};
+			};
+			buildConfigurationList = 63572B382A9E68010016F87C /* Build configuration list for PBXProject "KnightIndustries" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63572B342A9E68010016F87C;
+			productRefGroup = 63572B3C2A9E68010016F87C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63572B3A2A9E68010016F87C /* KnightIndustries */,
+				63572B402A9E68010016F87C /* KnightIndustries Watch App */,
+				63572B522A9E68030016F87C /* KnightIndustries Watch AppTests */,
+				63572B5C2A9E68030016F87C /* KnightIndustries Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63572B392A9E68010016F87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63572B3F2A9E68010016F87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63572B4E2A9E68020016F87C /* Preview Assets.xcassets in Resources */,
+				63572B4B2A9E68020016F87C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63572B512A9E68030016F87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63572B5B2A9E68030016F87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63572B3D2A9E68010016F87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63572B492A9E68010016F87C /* ContentView.swift in Sources */,
+				63572B472A9E68010016F87C /* KnightIndustriesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63572B4F2A9E68030016F87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63572B582A9E68030016F87C /* KnightIndustries_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63572B592A9E68030016F87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63572B622A9E68030016F87C /* KnightIndustries_Watch_AppUITests.swift in Sources */,
+				63572B642A9E68030016F87C /* KnightIndustries_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63572B442A9E68010016F87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63572B402A9E68010016F87C /* KnightIndustries Watch App */;
+			targetProxy = 63572B432A9E68010016F87C /* PBXContainerItemProxy */;
+		};
+		63572B552A9E68030016F87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63572B402A9E68010016F87C /* KnightIndustries Watch App */;
+			targetProxy = 63572B542A9E68030016F87C /* PBXContainerItemProxy */;
+		};
+		63572B5F2A9E68030016F87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63572B402A9E68010016F87C /* KnightIndustries Watch App */;
+			targetProxy = 63572B5E2A9E68030016F87C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63572B652A9E68030016F87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63572B662A9E68030016F87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		63572B682A9E68030016F87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KnightIndustries Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JT642QZPB9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KnightIndustries;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vineleaf.KnightIndustries.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		63572B692A9E68030016F87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KnightIndustries Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JT642QZPB9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KnightIndustries;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vineleaf.KnightIndustries.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		63572B6C2A9E68030016F87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT642QZPB9;
+				INFOPLIST_KEY_CFBundleDisplayName = KnightIndustries;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vineleaf.KnightIndustries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63572B6D2A9E68030016F87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT642QZPB9;
+				INFOPLIST_KEY_CFBundleDisplayName = KnightIndustries;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vineleaf.KnightIndustries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63572B6F2A9E68030016F87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT642QZPB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.vineleaf.KnightIndustries-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnightIndustries Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KnightIndustries Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		63572B702A9E68030016F87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT642QZPB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.vineleaf.KnightIndustries-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnightIndustries Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KnightIndustries Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		63572B722A9E68030016F87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT642QZPB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.vineleaf.KnightIndustries-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KnightIndustries Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		63572B732A9E68030016F87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT642QZPB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.vineleaf.KnightIndustries-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KnightIndustries Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63572B382A9E68010016F87C /* Build configuration list for PBXProject "KnightIndustries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63572B652A9E68030016F87C /* Debug */,
+				63572B662A9E68030016F87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63572B672A9E68030016F87C /* Build configuration list for PBXNativeTarget "KnightIndustries Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63572B682A9E68030016F87C /* Debug */,
+				63572B692A9E68030016F87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63572B6B2A9E68030016F87C /* Build configuration list for PBXNativeTarget "KnightIndustries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63572B6C2A9E68030016F87C /* Debug */,
+				63572B6D2A9E68030016F87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63572B6E2A9E68030016F87C /* Build configuration list for PBXNativeTarget "KnightIndustries Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63572B6F2A9E68030016F87C /* Debug */,
+				63572B702A9E68030016F87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63572B712A9E68030016F87C /* Build configuration list for PBXNativeTarget "KnightIndustries Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63572B722A9E68030016F87C /* Debug */,
+				63572B732A9E68030016F87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63572B352A9E68010016F87C /* Project object */;
+}
